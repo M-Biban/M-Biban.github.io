@@ -1,2 +1,3 @@
 # M-Biban.github.io
 wats up
+sudo apt update; sudo apt install -y ruby-full build-essential zlib1g-dev; echo '# Add Ruby to PATH' >> ~/.bashrc; echo 'export PATH="$HOME/.gem/ruby/X.X.0/bin:$PATH"' >> ~/.bashrc; source ~/.bashrc; sudo gem install jekyll bundler; gem install --user-install jekyll bundler; mkdir ~/.gems; export GEM_HOME="$HOME/.gems"; export PATH="$GEM_HOME/bin:$PATH"; gem install jekyll bundler
